@@ -1,0 +1,64 @@
+Allways deflect
+
+WHY?:
+Because I can never lose only draw.
+        Against Cooperators: If I always defect and my opponent always cooperates, I will consistently get the best possible outcome.
+        I "win" in the sense that I exploit my opponent’s cooperation.
+
+        Against Other Defectors: If both me and my opponent always defect, we both receive a lower payoff compared to mutual cooperation.
+        This is generally not a loss, but it's not optimal either.
+
+        Against Tit-for-Tat or Other Responsive Strategies: These strategies typically start by cooperating and then mimic my last move.
+        If I always defect, a tit-for-tat opponent will defect after the first move, leading to an ongoing series of mutual defection,
+        which, like the above, results in a suboptimal outcome for both players.
+
+Considerations:
+While always defecting ensures I never receive the lowest possible outcome, it often prevents achieving higher payoffs available through cooperation.
+This strategy might work effectively against consistently cooperative strategies but likely won't maximize my score in a round-robin tournament where
+diverse strategies are employed.
+
+
+Tit-for-Tat (TFT)
+Begin by cooperating, then replicate the opponent's last move. This strategy is forgiving and can encourage cooperation but also protects against
+consistent defection.
+
+WHY:
+        TFT is robust and often performs well in round-robin tournaments. It promotes mutual cooperation but swiftly retaliates against defection,
+        discouraging opponents from continuing to defect.
+
+
+Considerations:
+Adjusting the initial moves based on tournament dynamics or introduce forgiveness to handle occasional defections without escalating to mutual defection
+improves preformance.
+
+
+Pavlov (Win-Stay, Lose-Shift)
+Cooperate if both players made the same choice in the previous round (whether C or D), and switch if the choices differed. This strategy aligns with the
+idea of repeating choices that have been successful.
+
+WHY:
+        It can quickly adapt to exploit consistent cooperators and also defends well against defectors.
+
+
+ConsiderationS:
+It may oscillate in response patterns if faced with similar strategies.
+
+
+Randomized Strategies
+Introduce a degree of randomness where the choice to cooperate or defect is probabilistic, influenced by past interactions.
+
+WHY:
+        Adds unpredictability to your play, making it harder for opponents to exploit a fixed strategy.
+
+ConsiderationS:
+Requires careful tuning of probabilities based on the tournament's progression and opponents' behaviors.
+
+
+
+
+DUVIDAS:
+Perguntar se isto faz sentido.
+Perguntar se as labels vao ser agree/desagree.
+
+
+
